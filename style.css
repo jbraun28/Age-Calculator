@@ -1,5 +1,35 @@
- label, input {
-    display: flex;
-    flex-direction: column;
+form {
+    display: grid;
 }
+
+label {
+    grid-row: 1;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    color:  hsl(0, 1%, 44%);
+}
+
+input {
+    grid-row: 2;
+}
+
+
+
+div {
+    background-color: lightgrey;
+    margin: 30px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+}
+
+.box {
+    background-color: white;
+    margin: 100px;
+    padding: 50px;
+    width: 75%;
+    height: 300px;
+}
+
   
